@@ -1,0 +1,23 @@
+Problem: Guess the Secret Number with Conditions
+Write a program where a user is allowed 5 attempts to guess a secret number.
+
+The secret number is randomly chosen between 1 and 20.
+If the user's guess is less than the secret number, display: "Too low! Try again."
+If the user's guess is greater than the secret number, display: "Too high! Try again."
+Use continue to skip directly to the next guess attempt if the guess is incorrect.
+If the user guesses correctly, stop the loop immediately using break and print "Congratulations! You guessed it!"
+If all 5 attempts are used and the user doesn't guess correctly, print "Game over! The secret number was X."
+
+Example Run:
+Guess the number between 1 and 20! You have 5 attempts.
+Attempt 1: 10
+Too low! Try again.
+
+Attempt 2: 15
+Too high! Try again.
+
+Attempt 3: 12
+Too low! Try again.
+
+Attempt 4: 18
+Congratulations! You guessed it!
